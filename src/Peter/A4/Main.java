@@ -21,7 +21,7 @@ public class Main {
         double invT = inv.getTotal();
         double invT2 = inv01.getTotal();
         double roundOffinvT = Math.round(invT * 100.0) / 100.0;
-        double roundOffinvT2 = Math.rint(invT2 * 100.0) / 100.0;
+        double roundOffinvT2 = Math.round(invT2 * 100.0) / 100.0;
 
         System.out.println(inv);
 
