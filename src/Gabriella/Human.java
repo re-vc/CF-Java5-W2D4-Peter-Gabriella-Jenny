@@ -5,7 +5,7 @@ abstract class Human {
     String name;
     String Chromosome;
 
-    public abstract String getChromosome() ;
+    abstract public String getChromosome() ;
 
     @Override
     public String toString() {
